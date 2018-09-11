@@ -1,19 +1,24 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Friend Finder</title>
     <link rel="icon" type="image/png" href="favicon.png">
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-S7YMK1xjUjSpEnF4P8hPUcgjXYLZKK3fQW1j5ObLSl787II9p8RO9XUGehRmKsxd" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-S7YMK1xjUjSpEnF4P8hPUcgjXYLZKK3fQW1j5ObLSl787II9p8RO9XUGehRmKsxd" crossorigin="anonymous"> -->
+    
+    
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+    
+    </head>
+    
 
 <body>
 <div class="col-xs-12">
     <div class="row">
             <p><a href="/">Home</a></p>
             <h1>Survey Questions</h1>
+            <h2 id="yo">test</h2>
             <hr>
             <form>
                 <!--Basic questionnaire-->
@@ -35,7 +40,7 @@
                     <!--Links to data API and GitHub-->
                     <p>
                         <span><a href="/api/friends">API Friend List</a> | </span>
-                        <span><a href="https://github.com/mchlltt/friend-finder">GitHub Repository</a></span>
+                        <span><a href="https://github.com/double0dizzle/FriendFinder">GitHub Repository</a></span>
                     </p>
                     <!-- Error Modal -->
                     <div id="errorModal" class="modal fade" role="dialog">
@@ -67,5 +72,6 @@
                      </div>
                 </div>
             </div>
+            <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
             </body>
 </html>
