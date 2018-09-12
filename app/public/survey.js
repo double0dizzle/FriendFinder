@@ -1,14 +1,14 @@
 $(document).ready(function() {
     // Questions listed in an array so they can be procedurally generated.
     var questions = [
-        'I am the life of the party.',
-        'I am extraordinarily cynical.',
-        'I have a poor grip on reality.',
-        'I crave attention.',
+        "I'm a nerd",
+        'I am an extrovert.',
+        'I am delusional.',
+        'I need attention.',
         'I would rather sleep in on my days off.',
         'I have a good relationship with my family.',
-        'I believe that everything happens for a reason.',
-        'I enjoy cooking for myself and others.',
+        'I like woo woo stuff.',
+        'I can cook.',
         'I am a pet person.',
         'I believe in a higher power.'
     ];
